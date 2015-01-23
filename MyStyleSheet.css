@@ -1,0 +1,102 @@
+﻿body {
+    max-width: 1100px;
+    min-width: 700px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    color: black;
+
+    height: auto;
+    width: 17%;
+    line-height: 35px;
+    vertical-align: central;
+    text-align: center;
+    border-right: thin solid black;
+    float: left;
+    flex-grow: 1;
+}
+
+
+
+nav {
+    height: 35px;
+    font-size: 25px;
+    border: thin solid black;
+    text-align: center;
+    margin: auto auto auto auto;
+    width: 70%;
+    min-width: 500px;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.link {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: steelblue;
+}
+
+article {
+    position: relative;
+    top: 15px;
+    width: 60%;
+    min-width: 600px;
+    height: 340px;
+    background-color: steelblue;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 15px;
+    padding: 15px;
+    float: right;
+}
+
+article p {
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+
+article img {
+    float: right;
+    width: 40%;
+    height: 330px;
+}
+
+article h4 {
+    position: relative;
+    margin-right: 10%;
+}
+
+sidebar {
+    height: 200px;
+    width: 80px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+sidebar-item {
+    height: 25px;
+    color: black;
+    background-color: dimgrey;
+    width: auto;
+}
+
+sidebar-item:hover {
+    height: 25px;
+    color: black;
+    background-color: lightgray;
+    width: auto;
+}
